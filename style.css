@@ -16,3 +16,6 @@ th{color:var(--muted);font-weight:600}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
 hr{border:0;border-top:1px solid var(--line);margin:48px 0}
 .wrap{overflow-x:auto}
+nav label{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+nav select{background:transparent;color:var(--fg);border:0;font:inherit;padding:2px 0}
+nav select option{color:#1b2030}
