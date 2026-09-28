@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Delete Crossblocks Account</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-<h1>Delete your Crossblocks account</h1>
-<p class="muted">Crossblocks · developer: Onur Kansoy · <a href="#tr">Türkçe</a></p>
-<nav><a href="#en">English</a><a href="#tr">Türkçe</a><a href="index.html">Privacy policy</a></nav>
+<nav><a href="?lang=en" data-lang="en">English</a><a href="?lang=tr" data-lang="tr">Türkçe</a><a href="index.html">Privacy policy</a></nav>
 
 <section id="en">
+<h1>Delete your Crossblocks account</h1>
+<p class="muted">Crossblocks · developer: Onur Kansoy</p>
 <div class="card">
 <h2>In the game (instant)</h2>
 <ol>
@@ -38,7 +39,6 @@
 <p>Server backups are kept for up to 14 days, after which the deleted data is gone from backups as well. Other players' match histories may still show a past match against "Deleted player", with no personal data attached. Nothing is retained for other purposes.</p>
 </section>
 
-<hr>
 
 <section id="tr" lang="tr">
 <h1>Crossblocks hesabını silme</h1>
@@ -67,5 +67,27 @@
 <p>Sunucu yedekleri en fazla 14 gün saklanır; sonrasında silinen veri yedeklerden de kalkar. Diğer oyuncuların maç geçmişinde seninle yapılmış eski bir maç, kişisel veri olmadan "Silinmiş oyuncu" olarak görünebilir. Başka bir amaçla veri saklanmaz.</p>
 </section>
 </main>
+<script>
+// dil: ?lang= (oyun gönderir) ya da tarayıcı dili; tr dışı her dil İngilizce
+(function(){
+  var q = new URLSearchParams(location.search).get("lang") || "";
+  var h = location.hash.replace("#", "");
+  var l = (h === "tr" || h === "en") ? h : (q || navigator.language || "en");
+  var tr = l.toLowerCase().indexOf("tr") === 0;
+  document.documentElement.lang = tr ? "tr" : "en";
+  document.getElementById("en").hidden = tr;
+  document.getElementById("tr").hidden = !tr;
+  document.querySelectorAll("[data-lang]").forEach(function(a){
+    a.addEventListener("click", function(e){
+      e.preventDefault();
+      var t = a.getAttribute("data-lang") === "tr";
+      document.documentElement.lang = t ? "tr" : "en";
+      document.getElementById("en").hidden = t;
+      document.getElementById("tr").hidden = !t;
+      history.replaceState(null, "", "?lang=" + (t ? "tr" : "en"));
+    });
+  });
+})();
+</script>
 </body>
 </html>
