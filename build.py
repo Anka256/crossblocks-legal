@@ -5,7 +5,7 @@ yoksa tarayıcı dili, o da yoksa İngilizce.
 """
 import html
 
-EMAIL = "onurkansoy01@gmail.com"
+EMAIL = "256games.dev@gmail.com"
 LANGS = ["en", "tr", "es", "de", "fr", "pt", "it", "ru", "zh", "ja", "ko"]
 NAMES = {"en": "English", "tr": "Türkçe", "es": "Español", "de": "Deutsch", "fr": "Français",
          "pt": "Português", "it": "Italiano", "ru": "Русский", "zh": "简体中文", "ja": "日本語", "ko": "한국어"}
@@ -15,7 +15,7 @@ NAMES = {"en": "English", "tr": "Türkçe", "es": "Español", "de": "Deutsch", "
 P = {
 "en": dict(
  title="Crossblocks Privacy Policy", date="Effective date: 28 September 2026",
- intro="This policy explains what information the Crossblocks mobile game (\"the game\", \"we\") collects, why, and what choices you have. Crossblocks is developed by Onur Kansoy, who is the data controller.",
+ intro="This policy explains what information the Crossblocks mobile game (\"the game\", \"we\") collects, why, and what choices you have. Crossblocks is developed by 256 Games (Onur Kansoy), who is the data controller.",
  h_sum="Summary", sum=["No ads, no analytics, no tracking, and no third-party SDKs that collect data.",
   "No real name, email, phone number, contacts, location or photos are collected.",
   "Online features use a game account identified by a random ID created for your device.",
@@ -40,7 +40,7 @@ P = {
  h_contact="Contact", lang_label="Language"),
 "tr": dict(
  title="Crossblocks Gizlilik Politikası", date="Yürürlük tarihi: 28 Eylül 2026",
- intro="Bu politika, Crossblocks mobil oyununun (\"oyun\", \"biz\") hangi bilgileri neden topladığını ve senin hangi seçeneklere sahip olduğunu açıklar. Oyunun geliştiricisi ve veri sorumlusu Onur Kansoy'dur.",
+ intro="Bu politika, Crossblocks mobil oyununun (\"oyun\", \"biz\") hangi bilgileri neden topladığını ve senin hangi seçeneklere sahip olduğunu açıklar. Oyunun geliştiricisi ve veri sorumlusu 256 Games (Onur Kansoy)'dur.",
  h_sum="Özet", sum=["Reklam, analiz, takip ve veri toplayan üçüncü taraf yazılım yoktur.",
   "Gerçek ad, e-posta, telefon numarası, rehber, konum ya da fotoğraf toplanmaz.",
   "Çevrimiçi özellikler, cihazın için rastgele oluşturulan bir kimlikle tanınan bir oyun hesabı kullanır.",
@@ -65,7 +65,7 @@ P = {
  h_contact="İletişim", lang_label="Dil"),
 "es": dict(
  title="Política de privacidad de Crossblocks", date="Fecha de entrada en vigor: 28 de septiembre de 2026",
- intro="Esta política explica qué información recoge el juego para móviles Crossblocks (\"el juego\", \"nosotros\"), por qué y qué opciones tienes. Crossblocks está desarrollado por Onur Kansoy, que es el responsable del tratamiento.",
+ intro="Esta política explica qué información recoge el juego para móviles Crossblocks (\"el juego\", \"nosotros\"), por qué y qué opciones tienes. Crossblocks está desarrollado por 256 Games (Onur Kansoy), que es el responsable del tratamiento.",
  h_sum="Resumen", sum=["Sin anuncios, sin analíticas, sin seguimiento y sin SDK de terceros que recojan datos.",
   "No se recogen nombre real, correo electrónico, número de teléfono, contactos, ubicación ni fotos.",
   "Las funciones en línea usan una cuenta de juego identificada por un ID aleatorio creado para tu dispositivo.",
@@ -90,7 +90,7 @@ P = {
  h_contact="Contacto", lang_label="Idioma"),
 "de": dict(
  title="Crossblocks Datenschutzerklärung", date="Gültig ab: 28. September 2026",
- intro="Diese Erklärung beschreibt, welche Daten das Handyspiel Crossblocks (\"das Spiel\", \"wir\") erhebt, warum, und welche Wahlmöglichkeiten du hast. Crossblocks wird von Onur Kansoy entwickelt, der Verantwortlicher im Sinne des Datenschutzes ist.",
+ intro="Diese Erklärung beschreibt, welche Daten das Handyspiel Crossblocks (\"das Spiel\", \"wir\") erhebt, warum, und welche Wahlmöglichkeiten du hast. Crossblocks wird von 256 Games (Onur Kansoy) entwickelt, der Verantwortlicher im Sinne des Datenschutzes ist.",
  h_sum="Zusammenfassung", sum=["Keine Werbung, keine Analyse, kein Tracking und keine Drittanbieter-SDKs, die Daten erheben.",
   "Es werden kein echter Name, keine E-Mail-Adresse, Telefonnummer, Kontakte, Standortdaten oder Fotos erhoben.",
   "Online-Funktionen nutzen ein Spielkonto, das über eine zufällige, für dein Gerät erzeugte ID erkannt wird.",
@@ -115,7 +115,7 @@ P = {
  h_contact="Kontakt", lang_label="Sprache"),
 "fr": dict(
  title="Politique de confidentialité de Crossblocks", date="Date d'entrée en vigueur : 28 septembre 2026",
- intro="Cette politique explique quelles informations le jeu mobile Crossblocks (« le jeu », « nous ») collecte, pourquoi, et quels choix s'offrent à toi. Crossblocks est développé par Onur Kansoy, responsable du traitement.",
+ intro="Cette politique explique quelles informations le jeu mobile Crossblocks (« le jeu », « nous ») collecte, pourquoi, et quels choix s'offrent à toi. Crossblocks est développé par 256 Games (Onur Kansoy), responsable du traitement.",
  h_sum="Résumé", sum=["Pas de publicité, pas d'analyse, pas de suivi et aucun SDK tiers qui collecte des données.",
   "Aucun nom réel, e-mail, numéro de téléphone, contact, localisation ni photo n'est collecté.",
   "Les fonctions en ligne utilisent un compte de jeu identifié par un identifiant aléatoire créé pour ton appareil.",
@@ -140,7 +140,7 @@ P = {
  h_contact="Contact", lang_label="Langue"),
 "pt": dict(
  title="Política de privacidade do Crossblocks", date="Data de vigência: 28 de setembro de 2026",
- intro="Esta política explica quais informações o jogo para celular Crossblocks (\"o jogo\", \"nós\") coleta, por quê e quais escolhas você tem. O Crossblocks é desenvolvido por Onur Kansoy, o controlador dos dados.",
+ intro="Esta política explica quais informações o jogo para celular Crossblocks (\"o jogo\", \"nós\") coleta, por quê e quais escolhas você tem. O Crossblocks é desenvolvido por 256 Games (Onur Kansoy), o controlador dos dados.",
  h_sum="Resumo", sum=["Sem anúncios, sem análises, sem rastreamento e sem SDKs de terceiros que coletem dados.",
   "Não coletamos nome real, e-mail, telefone, contatos, localização ou fotos.",
   "Os recursos online usam uma conta de jogo identificada por um ID aleatório criado para o seu dispositivo.",
@@ -165,7 +165,7 @@ P = {
  h_contact="Contato", lang_label="Idioma"),
 "it": dict(
  title="Informativa sulla privacy di Crossblocks", date="Data di entrata in vigore: 28 settembre 2026",
- intro="Questa informativa spiega quali dati raccoglie il gioco per dispositivi mobili Crossblocks (\"il gioco\", \"noi\"), perché e quali scelte hai. Crossblocks è sviluppato da Onur Kansoy, titolare del trattamento.",
+ intro="Questa informativa spiega quali dati raccoglie il gioco per dispositivi mobili Crossblocks (\"il gioco\", \"noi\"), perché e quali scelte hai. Crossblocks è sviluppato da 256 Games (Onur Kansoy), titolare del trattamento.",
  h_sum="In breve", sum=["Niente pubblicità, niente analisi, niente tracciamento e nessun SDK di terze parti che raccolga dati.",
   "Non raccogliamo nome reale, e-mail, numero di telefono, contatti, posizione o foto.",
   "Le funzioni online usano un account di gioco identificato da un ID casuale creato per il tuo dispositivo.",
@@ -190,7 +190,7 @@ P = {
  h_contact="Contatti", lang_label="Lingua"),
 "ru": dict(
  title="Политика конфиденциальности Crossblocks", date="Дата вступления в силу: 28 сентября 2026 г.",
- intro="Эта политика объясняет, какие данные собирает мобильная игра Crossblocks («игра», «мы»), зачем и какой у тебя есть выбор. Разработчик Crossblocks и оператор данных — Онур Кансой (Onur Kansoy).",
+ intro="Эта политика объясняет, какие данные собирает мобильная игра Crossblocks («игра», «мы»), зачем и какой у тебя есть выбор. Разработчик Crossblocks и оператор данных — 256 Games (Onur Kansoy).",
  h_sum="Кратко", sum=["Нет рекламы, аналитики, отслеживания и сторонних SDK, собирающих данные.",
   "Мы не собираем настоящее имя, e-mail, номер телефона, контакты, местоположение или фото.",
   "Онлайн-функции используют игровой аккаунт, который распознаётся по случайному ID, созданному для твоего устройства.",
@@ -215,7 +215,7 @@ P = {
  h_contact="Контакты", lang_label="Язык"),
 "zh": dict(
  title="Crossblocks 隐私政策", date="生效日期：2026年9月28日",
- intro="本政策说明手机游戏 Crossblocks（“本游戏”“我们”）收集哪些信息、为何收集，以及你有哪些选择。Crossblocks 由 Onur Kansoy 开发，并由其担任数据控制者。",
+ intro="本政策说明手机游戏 Crossblocks（“本游戏”“我们”）收集哪些信息、为何收集，以及你有哪些选择。Crossblocks 由 256 Games (Onur Kansoy) 开发，并由其担任数据控制者。",
  h_sum="概要", sum=["无广告、无分析统计、无追踪，也没有收集数据的第三方 SDK。",
   "不收集真实姓名、电子邮箱、电话号码、通讯录、位置或照片。",
   "在线功能使用一个游戏账号，通过为你的设备随机生成的 ID 识别。",
@@ -240,7 +240,7 @@ P = {
  h_contact="联系方式", lang_label="语言"),
 "ja": dict(
  title="Crossblocks プライバシーポリシー", date="施行日：2026年9月28日",
- intro="本ポリシーは、モバイルゲーム Crossblocks（以下「本ゲーム」「当方」）がどのような情報をなぜ収集するのか、またあなたが選べることについて説明します。Crossblocks は Onur Kansoy が開発しており、同人がデータ管理者です。",
+ intro="本ポリシーは、モバイルゲーム Crossblocks（以下「本ゲーム」「当方」）がどのような情報をなぜ収集するのか、またあなたが選べることについて説明します。Crossblocks は 256 Games (Onur Kansoy) が開発しており、同人がデータ管理者です。",
  h_sum="概要", sum=["広告、分析、トラッキング、データを収集するサードパーティ SDK は一切ありません。",
   "本名、メールアドレス、電話番号、連絡先、位置情報、写真は収集しません。",
   "オンライン機能は、端末ごとにランダムに作成される ID で識別されるゲームアカウントを使用します。",
@@ -265,7 +265,7 @@ P = {
  h_contact="お問い合わせ", lang_label="言語"),
 "ko": dict(
  title="Crossblocks 개인정보 처리방침", date="시행일: 2026년 9월 28일",
- intro="이 방침은 모바일 게임 Crossblocks(\"게임\", \"당사\")가 어떤 정보를 왜 수집하는지, 그리고 여러분이 선택할 수 있는 사항을 설명합니다. Crossblocks는 Onur Kansoy가 개발했으며, 개인정보 처리 책임자입니다.",
+ intro="이 방침은 모바일 게임 Crossblocks(\"게임\", \"당사\")가 어떤 정보를 왜 수집하는지, 그리고 여러분이 선택할 수 있는 사항을 설명합니다. Crossblocks는 256 Games (Onur Kansoy)가 개발했으며, 개인정보 처리 책임자입니다.",
  h_sum="요약", sum=["광고, 분석, 추적 및 데이터를 수집하는 제3자 SDK가 없습니다.",
   "실명, 이메일, 전화번호, 연락처, 위치, 사진을 수집하지 않습니다.",
   "온라인 기능은 기기마다 무작위로 생성된 ID로 식별되는 게임 계정을 사용합니다.",
@@ -292,7 +292,7 @@ P = {
 
 # --- hesap silme sayfası ---
 D = {
-"en": dict(title="Delete your Crossblocks account", sub="Crossblocks · developer: Onur Kansoy",
+"en": dict(title="Delete your Crossblocks account", sub="Crossblocks · developer: 256 Games (Onur Kansoy)",
  h_in="In the game (instant)", steps=["Open Crossblocks and tap the <strong>Settings</strong> (gear) button on the main menu.", "Tap <strong>Delete account</strong> and confirm with <strong>Delete</strong>."],
  in_note="An internet connection is required. Your account is deleted immediately.",
  h_mail="Without the game (by email)", subject="Crossblocks account deletion",
@@ -300,7 +300,7 @@ D = {
  h_what="What is deleted", what=["Profile: nickname, avatar, banner, level, badges", "Rank points, season results, records, statistics", "Friend code, friends list and friend requests (you are also removed from other players' lists)", "Match history and head-to-head results", "The player ID and login token of the account"],
  keep="Server backups are kept for up to 14 days, after which the deleted data is gone from backups as well. Other players' match histories may still show a past match against \"Deleted player\", with no personal data attached. Nothing is retained for other purposes.",
  privacy="Privacy policy"),
-"tr": dict(title="Crossblocks hesabını silme", sub="Crossblocks · geliştirici: Onur Kansoy",
+"tr": dict(title="Crossblocks hesabını silme", sub="Crossblocks · geliştirici: 256 Games (Onur Kansoy)",
  h_in="Oyunun içinden (anında)", steps=["Crossblocks'u aç, ana menüde <strong>Ayarlar</strong> (dişli) düğmesine dokun.", "<strong>Hesabı sil</strong>'e dokun ve <strong>Sil</strong> ile onayla."],
  in_note="İnternet bağlantısı gerekir. Hesabın hemen silinir.",
  h_mail="Oyun olmadan (e-postayla)", subject="Crossblocks hesap silme",
@@ -308,7 +308,7 @@ D = {
  h_what="Neler silinir", what=["Profil: takma ad, avatar, afiş, seviye, rozetler", "Rank puanı, sezon sonuçları, rekorlar, istatistikler", "Arkadaş kodu, arkadaş listesi ve istekler (diğer oyuncuların listelerinden de çıkarılırsın)", "Maç geçmişi ve rakiplere karşı skorlar", "Hesabın oyuncu kimliği ve giriş anahtarı"],
  keep="Sunucu yedekleri en fazla 14 gün saklanır; sonrasında silinen veri yedeklerden de kalkar. Diğer oyuncuların maç geçmişinde seninle yapılmış eski bir maç, kişisel veri olmadan \"Silinmiş oyuncu\" olarak görünebilir. Başka bir amaçla veri saklanmaz.",
  privacy="Gizlilik politikası"),
-"es": dict(title="Eliminar tu cuenta de Crossblocks", sub="Crossblocks · desarrollador: Onur Kansoy",
+"es": dict(title="Eliminar tu cuenta de Crossblocks", sub="Crossblocks · desarrollador: 256 Games (Onur Kansoy)",
  h_in="Desde el juego (al instante)", steps=["Abre Crossblocks y toca el botón de <strong>Ajustes</strong> (engranaje) en el menú principal.", "Toca <strong>Borrar cuenta</strong> y confirma con <strong>Borrar</strong>."],
  in_note="Se necesita conexión a internet. La cuenta se elimina de inmediato.",
  h_mail="Sin el juego (por correo)", subject="Eliminar cuenta de Crossblocks",
@@ -316,7 +316,7 @@ D = {
  h_what="Qué se elimina", what=["Perfil: apodo, avatar, estandarte, nivel, insignias", "Puntos de rango, resultados de temporada, récords, estadísticas", "Código de amigo, lista de amigos y solicitudes (también se te quita de las listas de otros jugadores)", "Historial de partidas y resultados directos", "El ID de jugador y el token de inicio de sesión de la cuenta"],
  keep="Las copias de seguridad del servidor se guardan hasta 14 días; después, los datos eliminados desaparecen también de ellas. El historial de otros jugadores puede mostrar una partida pasada contra \"Jugador eliminado\", sin datos personales asociados. No se conserva nada con otros fines.",
  privacy="Política de privacidad"),
-"de": dict(title="Crossblocks-Konto löschen", sub="Crossblocks · Entwickler: Onur Kansoy",
+"de": dict(title="Crossblocks-Konto löschen", sub="Crossblocks · Entwickler: 256 Games (Onur Kansoy)",
  h_in="Im Spiel (sofort)", steps=["Öffne Crossblocks und tippe im Hauptmenü auf <strong>Einstellungen</strong> (Zahnrad).", "Tippe auf <strong>Konto löschen</strong> und bestätige mit <strong>Löschen</strong>."],
  in_note="Eine Internetverbindung ist nötig. Dein Konto wird sofort gelöscht.",
  h_mail="Ohne das Spiel (per E-Mail)", subject="Crossblocks Konto löschen",
@@ -324,7 +324,7 @@ D = {
  h_what="Was gelöscht wird", what=["Profil: Spitzname, Avatar, Banner, Stufe, Abzeichen", "Ranglistenpunkte, Saisonergebnisse, Rekorde, Statistiken", "Freundescode, Freundesliste und Anfragen (du wirst auch aus den Listen anderer Spieler entfernt)", "Spielverlauf und direkte Bilanz", "Spieler-ID und Anmelde-Token des Kontos"],
  keep="Server-Sicherungen werden bis zu 14 Tage aufbewahrt; danach sind die gelöschten Daten auch dort entfernt. Im Spielverlauf anderer Spieler kann ein früheres Match gegen \"Gelöschter Spieler\" erscheinen, ohne personenbezogene Daten. Zu anderen Zwecken wird nichts aufbewahrt.",
  privacy="Datenschutzerklärung"),
-"fr": dict(title="Supprimer ton compte Crossblocks", sub="Crossblocks · développeur : Onur Kansoy",
+"fr": dict(title="Supprimer ton compte Crossblocks", sub="Crossblocks · développeur : 256 Games (Onur Kansoy)",
  h_in="Dans le jeu (immédiat)", steps=["Ouvre Crossblocks et touche le bouton <strong>Paramètres</strong> (engrenage) du menu principal.", "Touche <strong>Supprimer le compte</strong> et confirme avec <strong>Supprimer</strong>."],
  in_note="Une connexion internet est nécessaire. Ton compte est supprimé immédiatement.",
  h_mail="Sans le jeu (par e-mail)", subject="Suppression de compte Crossblocks",
@@ -332,7 +332,7 @@ D = {
  h_what="Ce qui est supprimé", what=["Profil : pseudo, avatar, bannière, niveau, badges", "Points de rang, résultats de saison, records, statistiques", "Code ami, liste d'amis et demandes (tu es aussi retiré des listes des autres joueurs)", "Historique des matchs et bilans face à face", "L'identifiant de joueur et le jeton de connexion du compte"],
  keep="Les sauvegardes du serveur sont conservées jusqu'à 14 jours ; ensuite, les données supprimées disparaissent aussi des sauvegardes. L'historique d'autres joueurs peut montrer un ancien match contre « Joueur supprimé », sans donnée personnelle. Rien n'est conservé à d'autres fins.",
  privacy="Politique de confidentialité"),
-"pt": dict(title="Excluir sua conta do Crossblocks", sub="Crossblocks · desenvolvedor: Onur Kansoy",
+"pt": dict(title="Excluir sua conta do Crossblocks", sub="Crossblocks · desenvolvedor: 256 Games (Onur Kansoy)",
  h_in="No jogo (na hora)", steps=["Abra o Crossblocks e toque no botão <strong>Configurações</strong> (engrenagem) no menu principal.", "Toque em <strong>Excluir conta</strong> e confirme com <strong>Excluir</strong>."],
  in_note="É preciso estar conectado à internet. A conta é excluída imediatamente.",
  h_mail="Sem o jogo (por e-mail)", subject="Exclusão de conta do Crossblocks",
@@ -340,7 +340,7 @@ D = {
  h_what="O que é excluído", what=["Perfil: apelido, avatar, banner, nível, emblemas", "Pontos de rank, resultados de temporada, recordes, estatísticas", "Código de amigo, lista de amigos e pedidos (você também sai das listas de outros jogadores)", "Histórico de partidas e confrontos diretos", "O ID de jogador e o token de login da conta"],
  keep="Os backups do servidor são mantidos por até 14 dias; depois disso, os dados excluídos também somem dos backups. O histórico de outros jogadores pode mostrar uma partida antiga contra \"Jogador excluído\", sem dados pessoais. Nada é mantido para outros fins.",
  privacy="Política de privacidade"),
-"it": dict(title="Eliminare l'account Crossblocks", sub="Crossblocks · sviluppatore: Onur Kansoy",
+"it": dict(title="Eliminare l'account Crossblocks", sub="Crossblocks · sviluppatore: 256 Games (Onur Kansoy)",
  h_in="Dal gioco (subito)", steps=["Apri Crossblocks e tocca il pulsante <strong>Impostazioni</strong> (ingranaggio) nel menu principale.", "Tocca <strong>Elimina account</strong> e conferma con <strong>Elimina</strong>."],
  in_note="Serve una connessione a internet. L'account viene eliminato subito.",
  h_mail="Senza il gioco (via e-mail)", subject="Eliminazione account Crossblocks",
@@ -348,7 +348,7 @@ D = {
  h_what="Cosa viene eliminato", what=["Profilo: nickname, avatar, stendardo, livello, distintivi", "Punti rango, risultati stagionali, record, statistiche", "Codice amico, lista amici e richieste (vieni rimosso anche dalle liste degli altri giocatori)", "Cronologia partite e scontri diretti", "L'ID giocatore e il token di accesso dell'account"],
  keep="I backup del server sono conservati fino a 14 giorni; dopo, i dati eliminati spariscono anche dai backup. La cronologia di altri giocatori può mostrare una vecchia partita contro \"Giocatore eliminato\", senza dati personali. Nulla viene conservato per altri scopi.",
  privacy="Informativa sulla privacy"),
-"ru": dict(title="Удаление аккаунта Crossblocks", sub="Crossblocks · разработчик: Onur Kansoy",
+"ru": dict(title="Удаление аккаунта Crossblocks", sub="Crossblocks · разработчик: 256 Games (Onur Kansoy)",
  h_in="В игре (сразу)", steps=["Открой Crossblocks и нажми кнопку <strong>Настройки</strong> (шестерёнка) в главном меню.", "Нажми <strong>Удалить аккаунт</strong> и подтверди кнопкой <strong>Удалить</strong>."],
  in_note="Нужно подключение к интернету. Аккаунт удаляется сразу.",
  h_mail="Без игры (по e-mail)", subject="Удаление аккаунта Crossblocks",
@@ -356,7 +356,7 @@ D = {
  h_what="Что удаляется", what=["Профиль: ник, аватар, баннер, уровень, значки", "Очки ранга, итоги сезонов, рекорды, статистика", "Код друга, список друзей и заявки (ты также исчезаешь из списков других игроков)", "История матчей и счёт личных встреч", "ID игрока и токен входа аккаунта"],
  keep="Резервные копии сервера хранятся до 14 дней, после чего удалённые данные исчезают и из них. В истории других игроков может остаться прошлый матч против «Удалённый игрок» — без персональных данных. Ничего не хранится для других целей.",
  privacy="Политика конфиденциальности"),
-"zh": dict(title="删除你的 Crossblocks 账号", sub="Crossblocks · 开发者：Onur Kansoy",
+"zh": dict(title="删除你的 Crossblocks 账号", sub="Crossblocks · 开发者：256 Games (Onur Kansoy)",
  h_in="在游戏中（立即生效）", steps=["打开 Crossblocks，点击主菜单上的<strong>设置</strong>（齿轮）按钮。", "点击<strong>删除账号</strong>，并点击<strong>删除</strong>确认。"],
  in_note="需要联网。账号会立即删除。",
  h_mail="不通过游戏（发送邮件）", subject="删除 Crossblocks 账号",
@@ -364,7 +364,7 @@ D = {
  h_what="删除的内容", what=["资料：昵称、头像、横幅、等级、徽章", "段位积分、赛季结果、纪录、统计", "好友码、好友列表和请求（你也会从其他玩家的列表中移除）", "对战记录和交手战绩", "账号的玩家 ID 和登录令牌"],
  keep="服务器备份最多保留 14 天，之后已删除的数据也会从备份中消失。其他玩家的对战记录中可能仍显示与“已删除的玩家”的旧对局，但不含个人数据。不会出于其他目的保留任何数据。",
  privacy="隐私政策"),
-"ja": dict(title="Crossblocks アカウントの削除", sub="Crossblocks · 開発者：Onur Kansoy",
+"ja": dict(title="Crossblocks アカウントの削除", sub="Crossblocks · 開発者：256 Games (Onur Kansoy)",
  h_in="ゲーム内で（すぐに削除）", steps=["Crossblocks を開き、メインメニューの<strong>設定</strong>（歯車）ボタンをタップします。", "<strong>アカウント削除</strong>をタップし、<strong>削除</strong>で確定します。"],
  in_note="インターネット接続が必要です。アカウントはすぐに削除されます。",
  h_mail="ゲームを使わずに（メールで）", subject="Crossblocks アカウント削除",
@@ -372,7 +372,7 @@ D = {
  h_what="削除される内容", what=["プロフィール：ニックネーム、アバター、バナー、レベル、バッジ", "ランクポイント、シーズン結果、記録、統計", "フレンドコード、フレンドリスト、申請（他のプレイヤーのリストからも外れます）", "対戦履歴と通算成績", "アカウントのプレイヤー ID とログイントークン"],
  keep="サーバーのバックアップは最長 14 日間保管され、その後は削除済みのデータもバックアップから消えます。他のプレイヤーの対戦履歴に「削除されたプレイヤー」との過去の対戦が表示される場合がありますが、個人データは含まれません。その他の目的でデータを保持することはありません。",
  privacy="プライバシーポリシー"),
-"ko": dict(title="Crossblocks 계정 삭제", sub="Crossblocks · 개발자: Onur Kansoy",
+"ko": dict(title="Crossblocks 계정 삭제", sub="Crossblocks · 개발자: 256 Games (Onur Kansoy)",
  h_in="게임에서 (즉시)", steps=["Crossblocks를 열고 메인 메뉴의 <strong>설정</strong>(톱니바퀴) 버튼을 누릅니다.", "<strong>계정 삭제</strong>를 누르고 <strong>삭제</strong>로 확인합니다."],
  in_note="인터넷 연결이 필요합니다. 계정은 즉시 삭제됩니다.",
  h_mail="게임 없이 (이메일)", subject="Crossblocks 계정 삭제",
@@ -457,7 +457,7 @@ def privacy():
 <h2>{p['h_chg']}</h2>
 <p>{html.escape(p['chg'])}</p>
 <h2>{p['h_contact']}</h2>
-<p>Onur Kansoy — <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<p>256 Games (Onur Kansoy) — <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 </section>
 ''')
     out.append(SCRIPT)
