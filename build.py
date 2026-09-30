@@ -1,5 +1,6 @@
 """Crossblocks yasal sayfaları: index.html (gizlilik) ve delete.html (hesap silme), 11 dil.
-Metinler burada; sayfalar üretilir: python3 build.py
+Metinler burada (reklam / Google AdMob metinleri ads_texts.py'de, P'ye uygulanır);
+sayfalar üretilir: python3 build.py
 Dil: ?lang=<kod> (oyun Lang.code gönderir: en, tr, es, de, fr, pt_BR, it, ru, zh_CN, ja, ko),
 yoksa tarayıcı dili, o da yoksa İngilizce.
 """
@@ -290,6 +291,9 @@ P = {
  h_contact="연락처", lang_label="언어"),
 }
 
+import ads_texts
+ads_texts.apply(P)
+
 # --- hesap silme sayfası ---
 D = {
 "en": dict(title="Delete your Crossblocks account", sub="Crossblocks · developer: 256 Games (Onur Kansoy)",
@@ -445,6 +449,8 @@ def privacy():
 <p>{html.escape(p['local'])}</p>
 <h2>{p['h_share']}</h2>
 <p>{html.escape(p['share'])}</p>
+<h2>{p['h_ads']}</h2>
+<p>{p['ads']}</p>
 <h2>{p['h_sec']}</h2>
 <p>{html.escape(p['sec'])}</p>
 <h2>{p['h_ret']}</h2>
